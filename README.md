@@ -21,7 +21,7 @@ https://ms-meredith-mcd.github.io/PasswordGenerator/
 
 ## Credits
 
-Thank you to the EdX Full Stack Bootcamp with the University of Minnesota for the lessons, comments, and starter code.  Thank you as well to Tyler Peterson for the one last thing I needed and Pete Maynard for his guidance and support!
+Thank you to the EdX Full Stack Bootcamp with the University of Minnesota for the lessons, comments, and starter code.  Thank you as well to Tyler Peterson, Andrew Helmin, and Pete Maynard for the help!
 
 ## License
 
