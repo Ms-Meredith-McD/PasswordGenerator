@@ -1,6 +1,6 @@
 ## Description
 
-This project is to create a Password Generator using JavaScript.  The generator needs to prompt the user with password criteria and then randomly create a passsword with 8 to 128 characters.   The user will click the button to generate a password and then be presented with the 5 following prompts:  length of the passsword, if they want to include lowercase characters, uppercase characters, numeric characters, and/or special characters.  The code will validate that they choose a password length that is at least 4 characters and no more than 128 characters and choose at least one type of character for the generator to use. A password will be generated and displayed on the page.
+This project is to create a Password Generator using JavaScript.  The generator needs to prompt the user with password criteria and then randomly create a passsword with 8 to 128 characters.   The user will click the button to generate a password and then be presented with the 5 following prompts:  length of the passsword, if they want to include lowercase characters, uppercase characters, numeric characters, and/or special characters.  The code will validate that they choose a password length that is at least 8 characters and no more than 128 characters and choose at least one type of character for the generator to use. A password will be generated and displayed on the page.
 
 
 ## Installation
