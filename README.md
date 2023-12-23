@@ -1,33 +1,33 @@
-Description
+## Description
 
 This project is to create a Password Generator using JavaScript.  The generator needs to prompt the user with password criteria and then randomly create a passsword with 8 to 128 characters.   The user will click the button to generate a password and then be presented with the 5 following prompts:  length of the passsword, if they want to include lowercase characters, uppercase characters, numeric characters, and/or special characters.  The code will validate that they choose a password length that is at least 4 characters and no more than 128 characters and choose at least one type of character for the generator to use. A password will be generated and displayed on the page.
 
 
-Installation
+## Installation
 
 No installation required. The webpage can be used on any web browswer with nothing extra.
 
 
-How to Use
+## How to Use
 
 To generate a password with this website, follow the link below, press the "Generate Password" button and follow the prompts.
 
-Link
+## Link
 https://ms-meredith-mcd.github.io/PasswordGenerator/
 
-Screenshot
+## Screenshot
 ![Screenshot of Password Generator](./assets/images/image.png)
 
 
-Credits
+## Credits
 
 Thank you to the EdX Full Stack Bootcamp with the University of Minnesota for the lessons, comments, and starter code.  Thank you as well to Tyler Peterson for the one last thing I needed and Pete Maynard for his guidance and support!
 
-License
+## License
 
-MIT License
+### MIT License
 
-Copyright (c) 2023 MeredithMcD
+#### Copyright (c) 2023 MeredithMcD
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
