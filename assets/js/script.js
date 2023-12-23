@@ -18,15 +18,21 @@ generateBtn.addEventListener("click", writePassword);
 
 function generatePassword() {
   // Create the list of characters that will be used in the password
-  var lowerCaseArray = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'];
-  var upperCaseArray = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
-  var numbersArray = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
-  var specialArray = ["!", "@", "#", "$", "%", "^", "&", "*"];
+  var lowerCaseArray = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z',];
+  var upperCaseArray = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z",];
+  var numbersArray = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9,];
+  var specialArray = ["!", "@", "#", "$", "%", "^", "&", "*",];
   var userChoice = "";
 
   // Asks the user to pick a password length and then converts it to a number
   var length = prompt("How long do you want your password to be? Please choose 8 to 128 characters.");
   var passLength = parseInt(length);
+
+  //checks number of characters chosen, if outside of parameters, push an alert
+  if (!passLength || passLength < 8 || passLength > 128) {
+    alert('Please enter a number between 8 and 128 characters.');
+    return generatePassword();
+  }
 
   //Asks the user what type of characters they want to use
   var required = alert("You must choose at least one of the four following options.");
