@@ -61,12 +61,12 @@ function generatePassword() {
     userChoice += specialArray
   }
 
-// random number generation to build the rest of the password
-var passwordCompletion = ''
-for (var i = 0; i < passLength; i++) {
-  var randomNumber = Math.floor(Math.random() * userChoice.length);
-  console.log(randomNumber)
-  passwordCompletion += userChoice[randomNumber];
-}
-return passwordCompletion
+  // random number generation to build the rest of the password
+  var passwordCompletion = ''
+  for (var i = 0; i < passLength; i++) {
+    var randomNumber = Math.floor(Math.random() * userChoice.length);
+    console.log(randomNumber)
+    passwordCompletion += userChoice[randomNumber];
+  }
+  return passwordCompletion
 }   
